@@ -1,5 +1,6 @@
 # Geohashing Calculator
 A calculator for the xkcd geohashing game. It implements the algorithm described in this comic: [xkcd 426](https://xkcd.com/426/)
+![Geohashing Algorith](/geohashing.png)
 
 ## How To Use
 Install Python. This was written with Python 3.8.5. Both of the packages it uses are included in the Python Standard Library, so no other installation should be required.

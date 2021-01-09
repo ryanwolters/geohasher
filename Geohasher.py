@@ -5,7 +5,7 @@ today = date.today()
 
 userDegLat = input("Your current degrees latitude? (Number before decimal point): ")
 userDegLong = input("Your current degrees longitude? (Number before decimal point): ")
-dow = input("Today's Dow opening price: ") # get last dow opening price
+dow = input("Today's Dow opening price: ")
 
 geoString = str(today) + "-" + dow # create the string "yyyy-mm-dd-dowopening"
 hashResult = hashlib.md5(geoString.encode())
